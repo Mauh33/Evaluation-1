@@ -18,6 +18,7 @@
 
 body {
     font-family: 'Assistant', sans-serif ;
+    background-color: white;
 }
 
 
@@ -35,3 +36,4 @@ Variables
     --color-beige: #ffeeda;
     --color-chesnut: #b39f86;
 }
+
