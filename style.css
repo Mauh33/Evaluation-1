@@ -37,3 +37,21 @@ Variables
     --color-chesnut: #b39f86;
 }
 
+
+/* 
+Flux
+*/
+
+
+.flux {
+    width: 100%;
+    max-width: 360px;
+}
+
+/* 
+cover
+*/
+
+.cover__image { 
+    display: none;
+}
