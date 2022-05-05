@@ -6,7 +6,8 @@ Insertion d'image png, de favicon.
 
 Continuité du projet : 
 changement HTML : title. Remplissage section 2, ajout élément "li" et h2 et h3. 
-
+changement HTML : title. Ajout  balises strong, span, em, br.
 
 changement CSS : pensé mobile first - 
 ajout flux. stylisation du bloc header (disposition, thème couleur) 
+Stylisation balise figcaption, cover. Transition créee pour écran pc. 

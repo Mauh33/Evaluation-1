@@ -2,29 +2,28 @@
 
 
 * {
-    margin: 3.5px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
   a {
-      color: inherit;
       text-decoration: none;
   }
 
-  ul {
+  ul, li {
       list-style: none;
     }
     
     body {
-        font-family: 'Assistant', sans-serif ;
+        font-family: 'Assistant', sans-serif;
         background-color: var(--color-Lbeige);
-
     }
     
     h1 {
         font-family: var(--f-title);
-        size: 100px;
-        margin-top: 35px;
+        font-size: 35px;
+        color: var(--color-Dblue);
     }
 
 
@@ -34,7 +33,7 @@ Variables
 */
 
 :root {
-    --f-title: 'Lato', sans-serif; 
+    --f-title:'Oleo Script Swash Caps', cursive;
     --f-subtitle: 'Arapey', serif; 
     --color-Lblue: #d9f1ff;
     --color-blue: #749cb3;
@@ -45,15 +44,17 @@ Variables
 }
 
 
+
 /* 
 Flux
 */
 
-
 .flux {
+    max-width: 400px;
     width: 100%;
-    max-width: 360px;
 }
+
+
 
 
 /* 
@@ -65,15 +66,26 @@ Texts
     font-family: var(--f-subtitle);
 }
 
-.t-subtitle {
-    margin-top: 10px;
-    font-size: 1.1rem;
+    .t-subtitle {
+        margin-top: 35px;
+        font-size: 1.1rem;
+    }
+    
+    .t-title, .t-subtitle {
+        padding-left: 15px;
+    }
+    
+    .t-link {
+        font-family: var(--f-subtitle);
+    }
+    
+    
+    .p-style {
+        text-align: justify;
+        font-size: 18px;
+        padding: 0 25px;
 }
 
-.t-link {
-    font-family: var(--f-subtitle);
-    padding-left: 15px;
-}
 
 
 
@@ -81,47 +93,69 @@ Texts
 header
 */
 
-
 .header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: center;
-    position: relative;
-    background-color: var(--color-beige);
-    border-radius: 0 0 35px;
-    box-shadow: 8px 9px 15px -5px var(--color-chesnut);
-    height: 200px;
+    align-items: center;
+    height: 400px;
+    padding-bottom:30px;
 }
 
 .header__image {
-    width: 100px ;
-    height: 50%;
-    margin: 10px 13px;
-    align-self: center;
+    width: 115px ;
 }
 
 .header__nav {
-    align-self: center;
+    width: 80%;
+    /* background-color: var(--color-beige); */
+    /* box-shadow: 8px 9px 15px -5px var(--color-chesnut); */
+    padding-bottom: 12px;
+    border-radius: 15px;
+    text-align: center;
 }
-
 
 .header__link {
     color: var(--color-chesnut); 
     display: block;
     padding-top: 0.5em;
     font-size: 1.5em;
+    font-weight: 600;
 }
-
+/* 
 .header__link:hover {
-    color: var(--color-Lbeige);
-}
+    color: var(--color-Dblue);
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1.2) ;
+} */
+
+
 
 /* 
 cover
 */
 
-.cover__image { 
-    display: none;
+.cover {
+    position: relative;
 }
 
+.cover__image {
+    width: 380px;
+    height: 290px;
+}
+
+
+figcaption {
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/*
+Introduction
+*/
+
+.Introduction__title {
+
+}
