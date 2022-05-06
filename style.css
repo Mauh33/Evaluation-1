@@ -52,6 +52,7 @@ Flux
 .flux {
     max-width: 400px;
     width: 100%;
+    position: relative;
 }
 
 
@@ -67,8 +68,9 @@ Texts
 }
 
     .t-subtitle {
-        margin-top: 35px;
+        margin-bottom: 7px;
         font-size: 1.1rem;
+
     }
     
     .t-title, .t-subtitle {
@@ -83,9 +85,25 @@ Texts
     .p-style {
         text-align: justify;
         font-size: 18px;
-        padding: 0 25px;
-}
+        padding: 0 20px 30px;
+    }
+    
 
+
+
+
+    /*
+    Media
+    */
+    
+    .img {
+        display: block;
+        margin: auto;
+        width: 380px;
+        height: 290px;
+    }
+    
+    
 
 
 
@@ -123,12 +141,13 @@ header
     font-size: 1.5em;
     font-weight: 600;
 }
-/* 
-.header__link:hover {
+/* .header__link:hover {
     color: var(--color-Dblue);
     transition: all 0.5s ease-in-out;
     transform: scaleX(1.2) ;
-} */
+} */ */
+
+
 
 
 
@@ -136,13 +155,9 @@ header
 cover
 */
 
+
 .cover {
     position: relative;
-}
-
-.cover__image {
-    width: 380px;
-    height: 290px;
 }
 
 
@@ -156,6 +171,20 @@ figcaption {
 Introduction
 */
 
-.Introduction__title {
 
+
+/*
+Footer
+*/
+
+
+.footer {
+    height: 500px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
