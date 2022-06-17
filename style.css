@@ -66,6 +66,12 @@ h1 {
 
 
 
+
+
+
+
+
+
 /* 
  TEXTS
  */
@@ -132,10 +138,6 @@ h1 {
 }
 
 
-/*
-SECOND WEBPAGE TEXTS
-*/
-
 
 
 /*
@@ -196,6 +198,7 @@ TEXTS
     }
 }
 
+
 /*
 Media queries large screen
 TEXTS
@@ -247,6 +250,7 @@ TEXTS
 
 
 
+
 /* Second Page 
     TEXTS
 */
@@ -255,6 +259,7 @@ TEXTS
 .explanation__bloc--6 .p-style--beforefoot {
     margin-bottom: 0;
 }
+
 
 
 
@@ -268,8 +273,9 @@ Media queries mobile/ tablet
     .p-style--start-2 {
         padding: 15px 5em 30px;
     }
-
 }
+
+
 
 /*
 Second page TEXTS
@@ -282,6 +288,7 @@ Media queries tablet
         padding: 25px 52px 30px;
     }
 }
+
 
 
 /*
@@ -384,7 +391,6 @@ HEADER
 
 @media screen and (min-width:768px) {
 
-
     .header__image {
         width: 125px;
     }
@@ -396,6 +402,7 @@ HEADER
         box-shadow: 8px 9px 15px -5px var(--color-chesnut);
     }
 }
+
 
 /*
 Media queries tablet
@@ -428,6 +435,7 @@ HEADER
         padding: 10px 2%;
     }
 }
+
 
 /*
 Media queries large screen
@@ -486,6 +494,13 @@ Media queries large screen
 
 
 
+
+
+
+/* MEDIA */
+
+
+
 /* 
 Media queries mobile/tablet screen
 MEDIA
@@ -497,7 +512,6 @@ MEDIA
     }
 }
 
-
 /* 
 Media queries tablet screen
         MEDIA
@@ -508,7 +522,6 @@ Media queries tablet screen
         width: 55%;
     }
 }
-
 
 /* 
 Media queries XL screen
@@ -536,7 +549,6 @@ Media queries XXL screen
     .img {
         width: 40%;
     }
-
 }
 
 
@@ -613,10 +625,9 @@ COVER
 
 
 
-
 /* 
 Second webpage
-MEDIA
+    MEDIA
 */
 
 .inflex--1, .inflex--2 {
@@ -633,13 +644,11 @@ MEDIA
 
 
 
-
-
 /* 
 Second webpage 
 Media queries mobile/tablet screen
-        MEDIA
-        */
+             MEDIA
+*/
 
 
  @media screen and (min-width:1200px) {
@@ -655,10 +664,7 @@ Media queries mobile/tablet screen
     .inflex--4 {
         padding-bottom: 155px;
     }
-
  }
-
-
 
 
 
@@ -666,8 +672,8 @@ Media queries mobile/tablet screen
 Second webpage 
 Media queries XXL screen
         MEDIA
-        */
-        
+*/
+    
         @media screen and (min-width:1600px) {
             
             .inflex {
@@ -686,9 +692,6 @@ Media queries XXL screen
             .inflex--4  {
                 width: 400px;
             }
-
-
-
         }
         
         
@@ -778,10 +781,24 @@ Media queries XXL screen
         align-self: center;
     }
 
-   
 
 }
 
+
+
+/* 
+Third webpage 
+Media queries XXL screen
+*/
+
+
+@media screen  and (min-width:1600px) {
+
+    .explanation__bloc--7 {
+        width: 800px; 
+        
+    }
+}
 
 
 
