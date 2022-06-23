@@ -1,5 +1,9 @@
 Fichier détaillant les avancées du site.
 
+Lien du site déployé sur netlify Drop : https://chien-au-poil.netlify.app
+
+
+
 Utilisation du BEM pour les attributs class et faciliter la stylisation en css par la suite.
 Insertion d'un header et d'une cover avec barre de navigation  dans l'index, d'un titre.
 Insertion d'image png, de favicon.
